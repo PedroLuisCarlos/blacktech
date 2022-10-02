@@ -179,6 +179,15 @@ main img.pequena{
     margin: auto;
 }
 
+article.not {
+    background-color: rgba(131, 225, 173, 0.555) ;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+   
+ 
+
 div.video{
     background-color: hsla(146, 82%, 13%, 0.719);
     margin-bottom: 30px;
