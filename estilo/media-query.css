@@ -12,6 +12,7 @@
 @media screen and (max-width: 600px) {
     
     article > img {
+        box-align: center;
         border-radius: 20px;
         width: 350px;
         height: 200px;
