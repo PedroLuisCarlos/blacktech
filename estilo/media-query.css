@@ -42,7 +42,9 @@ main{
     body{
         background-image: url(../imagens/back-print.jpg);/* desnecessário colocar background*/        
     }
-
+    div{
+        display: none;
+    }
     main{
         border: 1px solid black;
         text-align: center;

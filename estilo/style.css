@@ -25,6 +25,35 @@ body,html {
     
 }
 
+span.material-symbols-outlined{
+
+
+}
+
+ div#home > a {
+    color: rgb(216, 83, 83);  
+    
+
+
+}
+
+a > span.material-symbols-outlined{
+    background-color: rgb(35, 35, 35) ;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+a > span.material-symbols-outlined:hover{
+    background-color:  rgba(189, 189, 3, 0.489);
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    color: white;
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform .5s, border 1s;
+}
 header > h1{
     font-family: var(--fonte-android);
     font-size: bolder;
