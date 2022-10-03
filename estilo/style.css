@@ -127,20 +127,36 @@ div.quadrado{
     border-radius: 10px;
     background-color: lightgray;
     width: 300px;
-    height: 300px;
+    height: 169px;
 }
 div#q1{
-    background-color: rgb(88, 88, 88);
+    background-image: url(../imagens/cod.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
 
+a > div#q1:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform .5s, border 1s;
 }
 div#q2{
-    background-image: linear-gradient(to bottom, yellow, red);
-
-}
+    background-image:url(../imagens/63375e821eebb.image.jpg);
+    background-position: center center ;
+   }
+   a > div#q2:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform .5s, border 1s;
+   }
+   
 div#q3{
     background-image: url(imagens/pattern003.png);
 
 }
+
 
 main{
     background-color: rgba(255, 255, 255, 0.719);
@@ -181,13 +197,13 @@ main strong{
     padding: 2px 6px;
 }
 
-main a {
+main > a {
 text-decoration: none;
 font-weight: bold;
 color: var(--cor4);
 padding: 2px 6px;
 }
-main a:hover{
+main > a:hover{
     text-decoration: underline;
     color: var(--cor2);
 }
