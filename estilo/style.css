@@ -34,20 +34,17 @@ body,html {
 
 
 
- div#home > a {
-    color: rgb(216, 83, 83);  
-}
-
-a > span.material-symbols-outlined{
+ div#home > a > img {
     background-color: rgb(35, 35, 35) ;
     width: 50px;
+    height: 50px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
     box-sizing: border-box;
 }
 
-a > span.material-symbols-outlined:hover{
+div#home > a > img:hover{
     background-color:  rgba(189, 189, 3, 0.489);
     border: 2px solid rgba(255, 255, 255, 0.637);
     color: white;
@@ -139,7 +136,7 @@ div#q1{
     background-image: url(../imagens/cod.jpg) ;
     background-repeat: no-repeat;
     background-position: center ;
-    margin-left: 10px;
+    
     
 }
 
@@ -174,9 +171,15 @@ a > div#q3:hover{
    }
 
 div#q4{
-    background-image: url(imagens/pattern003.png);
-   
+    background-image: url(../imagens/god1.jpg); 
+    background-position: center center;
 }
+a > div#q4:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform .5s, border 1s;
+   }
 
 
 main{
