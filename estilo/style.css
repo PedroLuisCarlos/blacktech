@@ -132,6 +132,8 @@ div.quadrado{
     background-color: lightgray;
     width: 300px;
     height: 169px;
+    cursor: pointer;
+    
 }
 div#q1{
     background-image: url(../imagens/cod.jpg) ;
