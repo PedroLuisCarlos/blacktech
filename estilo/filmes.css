@@ -1,5 +1,30 @@
 @charset "UTF-8";
 
+
+
+div.videof{
+    margin-bottom: 30px;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.6%;
+    position: relative;
+}
+
+div.videof > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width:90% ;
+    height: 90%;
+    border-radius: 20px;
+}
+
+article.videof > img{
+    width: 750px;
+    height: 250px;
+
+}
+
 div#f1{
     background-image: url(../imagens/pexels-fernando-arcos-211122.jpg) ;
     background-repeat: no-repeat;
