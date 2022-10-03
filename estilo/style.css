@@ -23,11 +23,13 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 body,html {
     background-color: lightgray;
     background: url(../imagens/pexels-aleksandar-pasaric-2603464.jpg) no-repeat left center;
     background-size: cover;
+    width: 100vw;
 
 }
  div#home > a {
@@ -133,6 +135,8 @@ div#q1{
     background-image: url(../imagens/cod.jpg) ;
     background-repeat: no-repeat;
     background-position: center ;
+    margin-left: 10px;
+    
 }
 
 a > div#q1:hover{
@@ -144,6 +148,7 @@ a > div#q1:hover{
 div#q2{
     background-image:url(../imagens/63375e821eebb.image.jpg);
     background-position: center center ;
+    margin: 0px;
    }
    a > div#q2:hover{
     border: 2px solid rgba(255, 255, 255, 0.637);
@@ -151,9 +156,15 @@ div#q2{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
     transition: transform .5s, border 1s;
    }
-   
+
 div#q3{
     background-image: url(imagens/pattern003.png);
+    margin: 0px;
+}
+
+div#q4{
+    background-image: url(imagens/pattern003.png);
+    margin: 0px;
 
 }
 
