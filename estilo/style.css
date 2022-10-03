@@ -150,7 +150,7 @@ a > div#q1:hover{
 div#q2{
     background-image:url(../imagens/63375e821eebb.image.jpg);
     background-position: center center ;
-    margin: 0px;
+    
    }
    a > div#q2:hover{
     border: 2px solid rgba(255, 255, 255, 0.637);
@@ -160,14 +160,20 @@ div#q2{
    }
 
 div#q3{
-    background-image: url(imagens/pattern003.png);
-    margin: 0px;
+    background-image: url(../imagens/fifa.jpg);
+    background-position: center center;
 }
+
+a > div#q3:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform .5s, border 1s;
+   }
 
 div#q4{
     background-image: url(imagens/pattern003.png);
-    margin: 0px;
-
+   
 }
 
 

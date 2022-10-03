@@ -17,6 +17,7 @@
         height: 200px;
         padding: 10px;
     }
+    
 }
 @media screen  and (min-width: 768px) {
     span#burguer {
