@@ -117,8 +117,13 @@ menu > ul > li > a {
 }
 
 menu > ul > li > a:hover{
+    padding: 10px;
     background-color: rgba(189, 189, 3, 0.489);
     color: white;
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform .5s, border 5s;
 }
 
 
@@ -178,7 +183,7 @@ a > div#q4:hover{
     border: 2px solid rgba(255, 255, 255, 0.637);
     transform: translate(-5px, -5px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
-    transition: transform .5s, border 1s;
+    transition: transform .5s, border 1px;
    }
 
 

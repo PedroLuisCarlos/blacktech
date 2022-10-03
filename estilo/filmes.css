@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+div#f1{
+    background-image: url(../imagens/pexels-fernando-arcos-211122.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+a > div#f1:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform .5s, border 1s;
+}
+div#f2{
+    background-image:url(../imagens/pexels-fernando-arcos-211122.jpg);
+    background-position: center center ;
+    background-size: cover;
+   }
+   a > div#f2:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform .5s, border 1s;
+   }
+
+div#f3{
+    background-image: url(../imagens/pexels-fernando-arcos-211122.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a > div#f3:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform .5s, border 1s;
+   }
+
+div#f4{
+    background-image: url(../imagens/pexels-fernando-arcos-211122.jpg); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a > div#f4:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform .5s, border 1px;
+   }
