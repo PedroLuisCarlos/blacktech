@@ -30,8 +30,10 @@ body,html {
     background: url(../imagens/pexels-aleksandar-pasaric-2603464.jpg) no-repeat left center;
     background-size: cover;
     width: 100vw;
-
 }
+
+
+
  div#home > a {
     color: rgb(216, 83, 83);  
 }
