@@ -10,7 +10,7 @@
 */
 
 @media screen and (max-width: 600px) {
-    
+ 
     article > img {
         border-radius: 20px;
         width: 330px;
