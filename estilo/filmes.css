@@ -20,8 +20,16 @@ div.videof > iframe{
 }
 
 article.videof > img{
-    width: 750px;
-    height: 250px;
+    padding: 10px;
+    max-width: 730px;
+    
+    
+}
+
+article.videof{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
 
 }
 
