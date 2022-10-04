@@ -9,15 +9,9 @@
     grandes Ecãs: mais de 1200px
 */
 
-@media screen and (max-width: 600px) {
- 
-    
-
-}
 @media screen  and (min-width: 768px) {
     span#burguer {
         display: none;
-    }
     }
 
 
@@ -32,42 +26,4 @@ menu > ul > li {
 main{
     width: 768px;
 }
-
-
-@media print { /*IMPRESSÃO*/
-    *{font-family: 'Courier New', Courier, monospace;}
-    body{
-        background-image: url(../imagens/back-print.jpg);/* desnecessário colocar background*/        
-    }
-    div{
-        display: none;
-    }
-    main{
-        border: 1px solid black;
-        text-align: center;
-    }
-    main h1{
-        text-shadow: none;
-        color: black;
-    }
-    main::after{
-
-        content: 'Impressão do site www.pedroluiscarlos.github.io';
-    }
-
-    span#burguer {
-        display: none;
-    }
-
-    article > img {
-        border-radius: 20px;
-        width: 600px;
-        height: 300px;
-        padding: 10px;
-    }
-
-    footer > section{
-        display: none;
-
-    }
 }
