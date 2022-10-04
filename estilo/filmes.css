@@ -1,12 +1,5 @@
 @charset "UTF-8";
 
-img#poster{
-    max-width: 400px;
-    max-height: 593px;
-    border-radius: 20px;
-    text-align: center;
-   
-}
 article.videof > ul {
     text-align: justify;
     line-height: 2em;
@@ -32,10 +25,11 @@ div.videof > iframe{
 }
 
 article.videof > img{
-    padding: 10px;
-    max-width: 730px;
+    width: 95%;
+    margin: auto;
+    display: block;
     border-radius: 20px;
-    
+      
     
 }
 
