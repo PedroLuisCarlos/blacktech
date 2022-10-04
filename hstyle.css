@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url('../fontes/idroid.otf') format('opentype');
+    src: url('fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -27,7 +27,7 @@
 }
 body,html {
     background-color: lightgray;
-    background: url(../imagens/pexels-aleksandar-pasaric-2603464.jpg) no-repeat left center;
+    background: url(imagens/pexels-aleksandar-pasaric-2603464.jpg) no-repeat left center;
     background-size: cover;
     width: 100vw;
 }
@@ -270,7 +270,6 @@ div.video > iframe{
     border-radius: 20px;
 }
 
-
 footer{
     width: 100vw;
     padding: 10px;
@@ -281,30 +280,20 @@ footer{
 
 footer > p{
     font-family: var(--fonte-android);
-    font-size: bold;
-    background-image: linear-gradient(to bottom, rgb(181, 181, 181), rgb(209, 209, 209), white);
-    color:black;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-    font-size: 1.2em;
-    padding: 10px;
 }
-
-
-footer > section#redes-sociais img{
-    width: 50px;
-    margin: 10px;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
-    box-sizing: border-box;
-}
-
+    
+ footer > section#redes-sociais img{
+        width: 50px;
+        margin: 10px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+        box-sizing: border-box;
+    }
+    
 footer > section#redes-sociais img:hover{
-    border: 2px solid rgba(255, 255, 255, 0.637);
-    transform: translate(-5px, -5px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
-    transition: transform .5s, border 1s;
-
-}
+        border: 2px solid rgba(255, 255, 255, 0.637);
+        transform: translate(-5px, -5px);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+        transition: transform .5s, border 1s;
+    
+    }
