@@ -1,8 +1,10 @@
 @charset "UTF-8";
 
 img#poster{
-    max-width: 700px;
+    max-width: 400px;
+    max-height: 593px;
     border-radius: 20px;
+    text-align: center;
    
 }
 article.videof > ul {

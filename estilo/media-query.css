@@ -26,6 +26,10 @@
         display: none;
     }
 
+            
+
+    }
+
 
 menu{
     display: block;
@@ -38,7 +42,7 @@ menu > ul > li {
 main{
     width: 768px;
 }
-}
+
 
 @media print { /*IMPRESSÃO*/
     *{font-family: 'Courier New', Courier, monospace;}
