@@ -145,7 +145,7 @@ div#q1{
 
 a > div#q1:hover{
     border: 2px solid rgba(255, 255, 255, 0.637);
-    transform: translate(-5px, -5px);
+    transform: translate(-1px, -1px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
     transition: transform .5s, border 1s;
 }
@@ -156,7 +156,7 @@ div#q2{
    }
    a > div#q2:hover{
     border: 2px solid rgba(255, 255, 255, 0.637);
-    transform: translate(-5px, -5px);
+    ttransform: translate(-1px, -1px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
     transition: transform .5s, border 1s;
    }
@@ -168,7 +168,7 @@ div#q3{
 
 a > div#q3:hover{
     border: 2px solid rgba(255, 255, 255, 0.637);
-    transform: translate(-5px, -5px);
+    transform: translate(-1px, -1px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
     transition: transform .5s, border 1s;
    }
@@ -179,7 +179,7 @@ div#q4{
 }
 a > div#q4:hover{
     border: 2px solid rgba(255, 255, 255, 0.637);
-    transform: translate(-5px, -5px);
+    transform: translate(-1px, -1px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
     transition: transform .5s, border 1px;
    }

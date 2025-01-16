@@ -212,10 +212,11 @@ div#q1{
 }
 
 a > div#q1:hover{
+    
     border: 2px solid rgba(255, 255, 255, 0.637);
-    transform: translate(-5px, -5px);
+    transform: translate(1px, 1px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
-    transition: transform .5s, border 1s;
+    transition: transform .0s, border 0s;
 }
 div#q2{
     background-image:url(../imagens/pantera.jpg);
@@ -223,10 +224,11 @@ div#q2{
     background-position: center center;
    }
    a > div#q2:hover{
+   
     border: 2px solid rgba(255, 255, 255, 0.637);
-    transform: translate(-5px, -5px);
+    transform: translate(1px, 1px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
-    transition: transform .5s, border 1s;
+    transition: transform .0s, border 0s;
    }
 
 div#q3{
@@ -236,10 +238,11 @@ div#q3{
 }
 
 a > div#q3:hover{
+    
     border: 2px solid rgba(255, 255, 255, 0.637);
-    transform: translate(-5px, -5px);
+    transform: translate(1px, 1px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
-    transition: transform .5s, border 1s;
+    transition: transform .0s, border 0s;
    }
 
 div#q4{
@@ -248,10 +251,11 @@ div#q4{
     background-position: center center;
 }
 a > div#q4:hover{
+  
     border: 2px solid rgba(255, 255, 255, 0.637);
-    transform: translate(-5px, -5px);
+    transform: translate(1px, 1px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
-    transition: transform .5s, border 1px;
+    transition: transform .0s, border 0s;
    }
  
 
