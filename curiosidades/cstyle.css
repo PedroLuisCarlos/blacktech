@@ -27,7 +27,7 @@
 }
 body,html {
     background-color: lightgray;
-    background: url(../imagens/pexels-aleksandar-pasaric-2603464.jpg) no-repeat left center;
+    background: url(../imagens/teste100.webp) no-repeat left center;
     background-size: cover;
     width: 100vw;
 }
@@ -106,22 +106,22 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(32, 32, 32);
-    color: rgb(208, 85, 23);
-    border-top: 2px solid rgb(0, 0, 0);
+    background-color: gray;
+    color: rgb(0, 0, 0);
+    border: 10px 10px 10px solid rgb(0, 0, 0);
     font-family: var(--fonte-android);
-    border-radius: 50px;
+    border-radius: 50px; 
 }
 
 menu > ul > li > a:hover{
     padding: 8px;
-    background-color: rgba(189, 189, 3, 0.489);
+    background-color: lightgray;
     color: white;
     border: 2px solid rgba(255, 255, 255, 0.637);
-    transform: translate(-1px, -1px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    /* transform: translate(-2px, -2px); */
     transition: transform .0s, border 0s;
 }
+
 
 div.quadrado{
     display: inline-block ;
