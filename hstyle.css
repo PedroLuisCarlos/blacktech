@@ -121,7 +121,7 @@ menu > ul > li > a:hover{
     background-color: lightgray;
     color: white;
     border: 2px solid rgba(255, 255, 255, 0.637);
-    transform: translate(-2px, -2px);
+    /* transform: translate(-2px, -2px); */
     transition: transform .0s, border 0s;
     
     
